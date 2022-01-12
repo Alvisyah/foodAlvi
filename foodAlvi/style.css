@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image:url('https://wallpaperaccess.com/full/5685483.jpg') ;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: whitesmoke;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.card-image{
+    background-color: violet;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.food-1{
+    background-image: url('https://awsimages.detik.net.id/community/media/visual/2020/02/14/b826ceed-6d7e-4761-9157-d3aa8564b9e5_169.jpeg?w=700&q=90');
+}
+
+.food-2{
+    background-image: url('https://faktualnews-prod.s3.ap-southeast-1.amazonaws.com/images/2019/06/rujak-buah.jpg');
+}
+
+.food-3{
+    background-image: url('https://cdnt.orami.co.id/unsafe/cdn-cas.orami.co.id/parenting/images/kupat-tahu.width-800.jpegquality-80.jpg');
+}
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    display: block;
+    width: 100%;
+    text-align:center;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.card:hover{
+    background-color: red ;
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 60px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo{
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
